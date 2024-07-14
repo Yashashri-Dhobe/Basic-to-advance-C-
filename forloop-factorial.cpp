@@ -7,9 +7,10 @@ int main() {
    cout << "enter a number\n";
    cin>> num;
    
-   for(int i = 1; i<=num ; i++)
+   for(int i = 1; i<=num ; i++){
    factorial*= i ;
    cout << "factorial is " << factorial <<endl;
+   }
    
    return 0;
 }
